@@ -29,6 +29,8 @@ import androidx.annotation.Nullable;
 
 import com.bvutest.demos.R;
 import com.bvutest.demos.common.PermissionManager;
+//import com.google.android.gms.common.GoogleApiAvailability;
+//import com.huawei.hms.api.HuaweiApiAvailability;
 
 /**
  * This class provides the permission verification and sub-AR example redirection functions.
@@ -111,4 +113,43 @@ public class ChooseActivity extends Activity {
                 Log.e(TAG, "onClick error!");
         }
     }
+
+//    private boolean isHMS() {
+//        Intent intent = null;
+//        int gmsResult = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(this);
+//
+//        //Use Interface to Judje whether Mobile Phone Supports Huawei MoBile Service,If supported,the result will be return to SUCCESS
+//        int hmsResult = HuaweiApiAvailability.getInstance().isHuaweiMobileServicesAvailable(this);
+//        if(gmsResult == ConnectionResult.SUCCESS){
+//            //Initialized as GMS PAY functional class
+//            intent = new Intent(this,GMSPayment.class);
+//        }else if(hmsResult == com.huawei.hms.api.ConnectionResult.SUCCESS){
+//            //Initialized as HMS PAY functional class
+//            intent = new Intent(this, HMSPayment.class);
+//        }else {//If neither service supports, hide all buttons
+//            return;
+//        }
+//
+//        startActivity(intent);
+//    }
+
+//    private boolean isGMS() {
+//        Intent intent = null;
+//        int gmsResult = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(this);
+//
+//        //Use Interface to Judje whether Mobile Phone Supports Huawei MoBile Service,If supported,the result will be return to SUCCESS
+//        int hmsResult = HuaweiApiAvailability.getInstance().isHuaweiMobileServicesAvailable(this);
+//        if(gmsResult == ConnectionResult.SUCCESS){
+//            //Initialized as GMS PAY functional class
+//            intent = new Intent(this,GMSPayment.class);
+//        }else if(hmsResult == com.huawei.hms.api.ConnectionResult.SUCCESS){
+//            //Initialized as HMS PAY functional class
+//            intent = new Intent(this, HMSPayment.class);
+//        }else {//If neither service supports, hide all buttons
+//            return;
+//        }
+//
+//        startActivity(intent);
+//    }
+
 }
