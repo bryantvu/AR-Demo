@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="AR Comparison Demo"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_huawei_world"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/selector_reset"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Huawei AR Engine - World"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btn_google_world"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/selector_reset"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Google AR - World"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_FaceAR"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:background="@drawable/selector_reset"-->
+<!--                android:gravity="center"-->
+<!--                android:onClick="onClick"-->
+<!--                android:text="FaceAR"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_body3d"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:background="@drawable/selector_reset"-->
+<!--                android:gravity="center"-->
+<!--                android:onClick="onClick"-->
+<!--                android:text="BodyAR3D"-->
+<!--                android:textColor="@color/white" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_hand"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:background="@drawable/selector_reset"-->
+<!--                android:gravity="center"-->
+<!--                android:onClick="onClick"-->
+<!--                android:text="HandAR"-->
+<!--                android:textColor="@color/white" />-->
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
