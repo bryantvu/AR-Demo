@@ -30,14 +30,27 @@ import android.hardware.camera2.CaptureRequest;
 import android.hardware.camera2.params.StreamConfigurationMap;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.util.Range;
 import android.util.Size;
 import android.view.Surface;
 
+import com.bvutest.demos.common.ArDemoRuntimeException;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
+
+/*
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
-
+*/
 import com.bvutest.demos.common.ArDemoRuntimeException;
 
 import java.io.Serializable;

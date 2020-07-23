@@ -19,13 +19,14 @@ package com.bvutest.demos;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
+// import androidx.annotation.Nullable;
 
 import com.bvutest.demos.R;
 import com.bvutest.demos.common.PermissionManager;
@@ -92,8 +93,8 @@ public class ChooseActivity extends Activity {
                 break;
             case R.id.btn_google_world:
                 //TODO: change to Google Activity
-//                startActivity(new Intent(this,
-//                        com.bvutest.demos.java.world.WorldActivity.class));
+                startActivity(new Intent(this,
+                        com.bvutest.demos.arcore.helloar.HelloArActivity.class));
                 break;
 //            case R.id.btn_FaceAR:
 //                startActivity(new Intent(this,
