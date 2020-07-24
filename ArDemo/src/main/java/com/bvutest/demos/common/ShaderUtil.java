@@ -17,9 +17,10 @@
 package com.bvutest.demos.common;
 
 import android.opengl.GLES20;
+import android.support.annotation.NonNull;
 import android.util.Log;
 
-import androidx.annotation.NonNull;
+// import androidx.annotation.NonNull;
 
 /**
  * This class is used to read shader code and compile links.

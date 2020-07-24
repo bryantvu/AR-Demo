@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:stats:4.0.3.302@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stats-4.0.3.302.aar/e2b7f9e8a9db0294b059a4f5cf12cf0a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stats-4.0.3.302.aar/e2b7f9e8a9db0294b059a4f5cf12cf0a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/stats/4.0.3.302/da39a3ee5e6b4b0d3255bfef95601890afd80709/stats-4.0.3.302-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

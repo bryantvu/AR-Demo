@@ -19,11 +19,12 @@ package com.bvutest.demos.common;
 import android.content.Context;
 import android.hardware.display.DisplayManager;
 import android.hardware.display.DisplayManager.DisplayListener;
+import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 
-import androidx.annotation.NonNull;
+// import androidx.annotation.NonNull;
 
 import com.huawei.hiar.ARSession;
 
